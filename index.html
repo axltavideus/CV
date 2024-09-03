@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body onload="displayGreeting()">
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="resume-btn">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <h1 id="greeting">Hi, I'm AxlTavi 👋</h1>
+        <p>Building digital products, brands, and experience.</p>
+    </main>
+
+    <!-- About Me Section -->
+    <section class="about-me">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="about-text">
+                <p>Hello! I'm AxlTavi, a passionate web developer and designer with a love for creating innovative digital solutions. With a background in both frontend and backend development, I enjoy building user-friendly websites and applications that not only look great but also perform seamlessly. My journey in tech began with a curiosity for how things work and has evolved into a full-fledged career where I get to turn ideas into reality.</p>
+                <p>When I'm not coding, you can find me exploring the latest in tech trends, experimenting with new design techniques, or working on open-source projects. I'm always looking for new challenges that push me to learn and grow.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="small-cards">
+            <a href="https://github.com" class="card">
+                <div class="row">
+                    <div class="col image-col">
+                        <img src="25231.png" class="image" alt="GitHub">
+                    </div>
+                    <div class="col content-col">
+                        <div class="card-body">
+                            <h5 class="card-title">GitHub</h5>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://instagram.com" class="card">
+                <div class="row">
+                    <div class="col image-col">
+                        <img src="ig.png" class="image" alt="Instagram">
+                    </div>
+                    <div class="col content-col">
+                        <div class="card-body">
+                            <h5 class="card-title">Instagram</h5>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="large-card">
+            <div class="card large">
+                <div class="large-card-content">
+                    <h2 class="large-card-title">Portfolio Summary</h2>
+                    <p class="large-card-text">
+                        Welcome to my portfolio! Here, you'll find a collection of my most notable projects, from web development to digital design. Explore my work, connect with me on social media, and see how I can help bring your ideas to life. I'm passionate about building clean, functional, and user-friendly digital experiences. Let's create something amazing together!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML/CSS</h3>
+                <div class="progress-bar" data-skill-level="80%"></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar" data-skill-level="85%"></div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-bar" data-skill-level="65%"></div>
+            </div>
+            <div class="skill">
+                <h3>UI/UX Design</h3>
+                <div class="progress-bar" data-skill-level="45%"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
